@@ -24,7 +24,7 @@ body {
 }
 
 header {
-  background-color: #325259;
+  background-color: #547D86;
   padding: 10px 0 4px;
   margin: 0 auto;
   border-bottom: 3px solid #99B8BF;
@@ -105,7 +105,7 @@ a:-webkit-any-link {
 
 .button {
   display: inline-block;
-  background-color: #58838C;
+  background-color: #547D86;
   color: #ffffff;
   font-weight: 400;
   padding: 10px;
@@ -124,11 +124,11 @@ a:-webkit-any-link {
   background-color: transparent;
   color: #58838C;
   text-transform: uppercase;
-  border: 2px solid #58838C;
+  border: 2px solid #547D86;
 }
 
 .button.contact:hover {
-  background-color: #58838C;
+  background-color: #547D86;
   color: #ffffff;
 }
 
@@ -139,8 +139,8 @@ svg {
 
 #graphic {
   width: 100%;
-max-width: 100%;
-height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Layout styling */
@@ -149,8 +149,7 @@ height: auto;
   padding: 0 15px;
   clear: both;
   margin-left: auto;
-margin-right: auto;
-
+  margin-right: auto;
 }
 
 .row {
@@ -177,14 +176,11 @@ margin-right: auto;
   display: block;
 }
 
-
-
 nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
 
 nav>ul>li>a {
   padding: 0 5px;
@@ -198,15 +194,14 @@ nav>ul>li>a:visited {
   color: #FFFFFF;
 }
 
-
 .navtoggle li:not(:last-child) {
   display: none;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
- padding: 10px 0;
- border-top: 0.5px solid #FFFFFF;
+  padding: 10px 0;
+  border-top: 0.5px solid #FFFFFF;
 }
 
 .navtoggle, .navtoggle.responsive {
@@ -225,10 +220,9 @@ nav>ul>li>a:visited {
   padding: 24px 0 0;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
-
 
 main {
   padding-top: 15px;
@@ -239,19 +233,31 @@ footer {
 }
 
 @keyframes color-change {
-  0% {fill: #F2F2F2;}
-  50% {fill: #CE9E3E;}
-  100% {fill: #A76D0C;}
-}
+  0% {
+    fill: #F2F2F2;
+  }
 
+  50% {
+    fill: #CE9E3E;
+  }
+
+  100% {
+    fill: #A76D0C;
+  }
+}
 
 .st0 {
   animation: 3s color-change infinite alternate linear;
 }
 
 @keyframes graphic-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 .st9 {
@@ -271,25 +277,24 @@ Medium devices (640px and larger)
     padding: 20px;
   }
 
-nav>ul {
-margin: 1em 0;
-
-}
+  nav>ul {
+    margin: 1em 0;
+  }
 
   nav>ul>li {
     display: inline-block;
   }
 
   .navtoggle li:not(:last-child) {
-  display: inline-block;
-}
+    display: inline-block;
+  }
 
-.navtoggle li:last-child {
-  display: none;
-}
+  .navtoggle li:last-child {
+    display: none;
+  }
 
   img:logo {
-     min-width: 641px;
+    min-width: 641px;
   }
 
   .col-md-1 {
@@ -315,6 +320,7 @@ margin: 1em 0;
   .col-md-6 {
     width: 100%;
   }
+
   [class*="col-"] {
     float: left;
     padding: 10px;
@@ -347,113 +353,121 @@ margin: 1em 0;
     font-size: 1.25em;
   }
 
-nav>ul>li>a {
-font-size: 1em;
-padding: 20px;
-}
-
-nav {
-  font-size: 1.25em;
-}
-
-.button {
-  font-size: 1.25em;
-}
-
-}
-
-  /* ==============================
-Large devices (1024px or larger)
-================================= */
-  @media only screen and (min-width: 1024px) {
-    .col-1 {
-      width: 8.33%;
-    }
-
-    .col-2 {
-      width: 16.66%;
-    }
-
-    .col-3 {
-      width: 25%;
-    }
-
-    .col-4 {
-      width: 33.33%;
-    }
-
-    .col-5 {
-      width: 41.66%;
-    }
-
-    .col-6 {
-      width: 50%;
-    }
-
-    .col-7 {
-      width: 58.33%;
-    }
-
-    .col-8 {
-      width: 66.66%;
-    }
-
-    .col-9 {
-      width: 75%;
-    }
-
-    .col-10 {
-      width: 83.33%;
-    }
-
-    .col-11 {
-      width: 91.66%;
-    }
-
-    .col-12 {
-      width: 100%;
-    }
-
-    h1 {
-      font-size: 2em;
-      font-weight: 700;
-      text-align: center;
-    }
-
-    h2 {
-      font-size: 1.75em;
-      font-weight: 700;
-    }
-
-    h3 {
-      font-size: 1.5em;
-      font-weight: 400;
-      text-align: left;
-    }
-
-    h4 {
-      font-size: 1.25em;
-      font-weight: 400;
-    }
-
-    p {
-      text-align: left;
-      font-size: 1.25em;
-    }
-    nav {
-      font-size: 1.25em;
-    }
-
-    .button {
-      font-size: 1.25em;
-    }
-
+  li {
+    font-size: 1.25em;
   }
 
-  /* ==============================
+  nav>ul>li>a {
+    font-size: .75em;
+    padding: 20px;
+  }
+
+  nav {
+    font-size: 1.25em;
+  }
+
+  .button {
+    font-size: 1.25em;
+  }
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.75em;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  h4 {
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+
+  p {
+    text-align: left;
+    font-size: 1.25em;
+  }
+
+  li {
+    font-size: 1.25em;
+  }
+
+  nav {
+    font-size: 1.25em;
+  }
+
+  .button {
+    font-size: 1.25em;
+  }
+}
+
+/* ==============================
 X-large devices (1440px or larger)
 ================================= */
-  @media only screen and (min-width: 1440px) {@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1024px) {
     .col-1 {
       width: 8.33%;
     }
@@ -528,10 +542,14 @@ X-large devices (1440px or larger)
       text-align: left;
       font-size: 1.5em;
     }
+
+    li {
+      font-size: 1.5em;
+    }
+
     nav {
       font-size: 1.25em;
     }
-
   }
 
   .button {
@@ -542,7 +560,6 @@ X-large devices (1440px or larger)
 Extra-large devices (1920px or larger)
 ================================= */
   @media only screen and (min-width: 1920px) {
-
     .col-1 {
       width: 8.33%;
     }
@@ -590,7 +607,6 @@ Extra-large devices (1920px or larger)
     .col-12 {
       width: 100%;
     }
-
   }
 
   [class*="col-"] {
