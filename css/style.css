@@ -87,7 +87,7 @@ img:logo {
 
 a:hover,
 a:focus {
-  color: #038198;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -96,7 +96,7 @@ a:visited {
 }
 
 a:active {
-  color: #58838C;
+  color: #FFFFFF;
 }
 
 a:-webkit-any-link {
@@ -218,6 +218,7 @@ nav>ul>li>a:visited {
 
 .navtoggle.responsive nav {
   padding: 24px 0 0;
+  solid: #FFFFFF;
 }
 
 .navtoggle.responsive li:last-child {
