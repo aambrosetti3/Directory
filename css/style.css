@@ -1,7 +1,7 @@
 /*
 Colors used:
 Dark Teal: #325259
-Teal: #58838C
+Teal: #547D86
 Light Teal: #99B8BF
 Peach: #F2B6A0
 Tan: #A66A5D
@@ -44,6 +44,7 @@ h1 {
   font-size: 2em;
   font-weight: 700;
   text-align: center;
+  color: #A66A5D;
 }
 
 h2 {
@@ -122,7 +123,7 @@ a:-webkit-any-link {
 
 .button.contact {
   background-color: transparent;
-  color: #58838C;
+  color: #547D86;
   text-transform: uppercase;
   border: 2px solid #547D86;
 }
