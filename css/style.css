@@ -348,6 +348,16 @@ Medium devices (640px and larger)
     font-weight: 400;
   }
 
+  .processh2 {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #325259;
+  }
+
+  .processh3 {
+    text-align: center;
+  }
+
   p {
     text-align: left;
     font-size: 1.25em;
